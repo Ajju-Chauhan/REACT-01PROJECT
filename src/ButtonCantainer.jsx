@@ -1,7 +1,7 @@
 import style from "./ButtonCantainer.module.css";
 
 let ButtonContainer = ({ onClickButton }) => {
-  const buttons = ['C', '1', '2', '+', '3', '4', '-', '5', '6', '*', '7', '8', '/', '=', '9','00','0', '.'];
+  const buttons = ['C', '1', '2', '+', '3', '4', '-', '5', '6', '*', '7', '8', '/', '0', '9','00','.', '='];
 
   return (
     <div className={style.buttonContainer}>
